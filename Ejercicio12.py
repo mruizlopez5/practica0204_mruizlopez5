@@ -60,9 +60,9 @@ while True:
 
         else: 
             print("sólo números enteros o números negativos enteros")#ADMITE NEGATIVOS!!! no floats...
-            
+
     #EN este punto ya tengo la lista hecha solo de integers
-    print("La lista en strings convertida a enteros es",ENTRADA_int)
+    print("La lista en strings convertida a enteros es", ENTRADA_int)
 
     #calculo media
     suma = 0
@@ -74,7 +74,7 @@ while True:
     NUMERADORdesv = 0
     for i in ENTRADA_int:
         NUMERADORdesv = NUMERADORdesv + pow((i-media), 2)
-    desvT = pow((NUMERADORdesv/len(ENTRADA_int)),(1/2)) #hago la raiz elevando a 1/2
+    desvT = pow((NUMERADORdesv/len(ENTRADA_int)), (1/2)) #hago la raiz elevando a 1/2
 
-    print("Media de los valores intorudcidos:", round(media,2))
-    print("Desviación tipica de los valores intorudcidos:", round(desvT,2))
+    print("Media de los valores intorudcidos:", round(media, 2))
+    print("Desviación tipica de los valores intorudcidos:", round(desvT, 2))
