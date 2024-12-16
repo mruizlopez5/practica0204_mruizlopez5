@@ -9,4 +9,4 @@ lista.reverse()
 print(lista)
 #otra manera de hacerlo
 for i in lista:
-    print(i,end=",")
+    print(i, end=",")
